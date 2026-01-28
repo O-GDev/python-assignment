@@ -67,7 +67,7 @@ def filter_employees_list(employees):
     for employee in it_employees:
         name, department, salary=employee
         if salary>55000:
-            it_employees_above_5500.append((name, department, salary))
+            it_employees_above_5500.append(name)
     return it_employees_above_5500
 print(filter_employees_list(employees))
 
